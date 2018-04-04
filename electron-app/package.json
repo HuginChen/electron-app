@@ -2,10 +2,19 @@
   "name": "electron-app",
   "version": "0.0.1",
   "main": "main.js",
+  "description": "A Electron application for WeChat",
   "scripts": {
-    "start": "electron ."
+    "start": "electron src/main.js"
   },
   "devDependencies": {
     "electron": "^1.8.4"
-  }
+  },
+  "keywords": [
+    "Electron",
+    "WeChat",
+    "微信",
+    "Web"
+  ],
+  "author": "Hugin Chen",
+  "license": "MIT"
 }
